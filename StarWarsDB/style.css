@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #000;
+}
+
+.logo{
+height: 10em;
+}
+
+.spiner{
+    height: 10vh;
+display: none;
+margin: auto;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5em;
+    width: 100%;
+}
+
+.container .card{
+padding: 20px 0;
+width: 15rem;
+background-color: #ffff00;
+}
+
+.container .card:hover{
+    cursor: pointer;
+    background-color: #adff2f;
+}
+
+.active-card{
+    background-color: #adff2f !important;
+}
+
+.result{
+    padding: 0 50px;
+}
+
+#pagination{
+    display: none;
+    justify-content: center;
+}
+
+#next{
+    margin-left: 20px;
+}
