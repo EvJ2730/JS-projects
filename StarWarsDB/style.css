@@ -1,51 +1,53 @@
-body{
-    margin: 0;
+body {
     padding: 10px;
+    margin: 0;
     width: 100%;
-    background-color: #000;
+    background-color: black;
 }
 
-.logo{
-height: 10em;
+.medium {
+    height: 10em;
 }
 
-.spiner{
-    height: 10vh;
-display: none;
-margin: auto;
+.center {
+    display: block;
+    margin: auto;
 }
 
-.container{
+.container {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     padding: 5em;
-    width: 100%;
 }
 
-.container .card{
-padding: 20px 0;
-width: 15rem;
-background-color: #ffff00;
+.container > .card {
+    width: 15rem;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 20px 0;
 }
-
-.container .card:hover{
+.active-card {
+    background-color: greenyellow !important;
+}
+.container > .card:hover {
     cursor: pointer;
-    background-color: #adff2f;
+    background-color: yellowgreen;
+}
+.spinner {
+    height: 10vh;
+    display: none;
 }
 
-.active-card{
-    background-color: #adff2f !important;
-}
-
-.result{
+.result {
     padding: 0 50px;
 }
 
-#pagination{
+#pagination {
     display: none;
     justify-content: center;
 }
 
-#next{
+#next {
     margin-left: 20px;
 }

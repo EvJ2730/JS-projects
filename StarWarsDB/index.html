@@ -9,21 +9,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="img/logo.png" alt="Star Wars logo" class="logo">
+    <img src="img/logo.png" alt="Star wars logo" class="center medium" />
     <div class="container">
         <div class="card" id="getPeople">
-            <img src="img/cosmonaut.svg" alt="Link for getting people" class="card-img-top">
+            <img src="img/cosmonaut.svg" class="card-img-top" alt="link for getting people">
         </div>
-        <div class="card" id="getSips">
-            <img src="img/rocket.svg" alt="Link for getting ships" class="card-img-top">
+        <div class="card" id="getShips">
+            <img src="img/rocket.svg" class="card-img-top" alt="link for getting ships">
         </div>
     </div>
-    <img src="img/loader.gif" alt="loader" class="spinner" id="loader">
-    <div class="result" id="result"></div>
+    <img src="img/loader.gif" alt="loader" class="center spinner" id="loader">
+    <div id="result" class="result">
+
+    </div>
     <div id="pagination">
         <button class="btn primary btn-primary" id="prev">Prev</button>
         <button class="btn primary btn-primary" id="next">Next</button>
     </div>
+
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
